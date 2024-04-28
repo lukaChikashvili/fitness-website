@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import SplitType from 'split-type';
 import { gsap } from 'gsap';
+import mandala from '../assets/mandla.png';
 
 const Main = () => {
     useEffect(() => {
@@ -29,7 +30,11 @@ const Main = () => {
             <h1 className='wavy-text font-semibold text-4xl ' animate = "animate" >Mind and Soul</h1>
            <h3>At Flexify</h3>
 
+          <motion.img initial = {{opacity: 0, translateY: 20}}
+                      animate = {{opacity: 1, translateY: 0}}
+                      transition={{duration: 1, delay: 1.4}}
           
+          src = {mandala} className='mandala absolute -z-10 right-36 top-56' />
         </motion.div>
     );
 };
