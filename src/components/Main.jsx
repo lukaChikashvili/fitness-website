@@ -22,10 +22,14 @@ const Main = () => {
     }, []);
 
     return (
-        <motion.div className='wavy-text flex items-center justify-center h-screen'>
-            <h1 className='wavy-text text-5xl' animate='animate'>
-                Your Wavy Text Here
+        <motion.div className=' flex items-center justify-center  h-screen flex-col gap-4 '>
+            <h1 className='wavy-text font-bold inline-block ' animate='animate' style = {{fontSize: '80px', width: '400px'}}>
+               Transform Your Body
             </h1>
+            <h1 className='wavy-text font-semibold text-4xl ' animate = "animate" >Mind and Soul</h1>
+           <h3>At Flexify</h3>
+
+          
         </motion.div>
     );
 };
