@@ -23,7 +23,7 @@ const Header = () => {
 
 
   return (
-    <div className='w-full flex items-center justify-between px-24 py-8'>
+    <div className='w-full flex items-center justify-between px-24 py-8 '>
        <div className="logo wavy-text ">
          <h1 animate = "animate " className='text-3xl'>Flexify</h1>
        </div>
