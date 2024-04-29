@@ -6,7 +6,7 @@ import mandala from '../assets/mandla.png';
 
 const Main = () => {
 
-    const {scrollYProgress} = useScroll();
+
 
 
     useEffect(() => {
@@ -40,7 +40,7 @@ const Main = () => {
           
           src = {mandala} className='mandala absolute -z-10 right-36 top-56' />
 
-        <motion.div className='w-8 h-2 bg-orange-500 fixed bottom-0 left-0 origin-bottom-left' style={{scaleX: scrollYProgress}}></motion.div>
+       
         </motion.div>
     );
 };

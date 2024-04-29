@@ -80,8 +80,8 @@ const About = () => {
             At Flexify, we're committed to helping you reach your full potential, both physically and mentally. Join us today and experience the difference at Flexify - where fitness meets fun and community!
             </p>
             <motion.button 
-               initial = {{opacity: 0, translateY: -20}}
-               whileInView={{opacity: 1, translateY: 0}}
+               initial = {{opacity: 0}}
+               whileInView={{opacity: 1}}
                transition={{duration: 1.2, delay: 1}}
             
             className='bg-orange-500 w-56 py-2 px-8 rounded-md border-2 border-orange-500 text-white shadow-lg duration-500 ease-in hover:bg-white hover:text-orange-600 ' >Contact us</motion.button>
