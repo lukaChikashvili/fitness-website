@@ -76,7 +76,7 @@ const Trainers = () => {
 
   return (
     <div className='min-h-screen p-24' ref = {aboutRef}>
-       <motion.h1 animate = "animate" className='wavy-text text-3xl ' >Services</motion.h1>
+       <motion.h1 animate = "animate" className='wavy-text text-3xl ' ><span className='text-orange-500 text-sm'>002.</span>Services</motion.h1>
 
       <div className=' flex items-center justify-center gap-8 p-8'>
          {services.map((value, i) => (

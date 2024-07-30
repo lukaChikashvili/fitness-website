@@ -7,6 +7,7 @@ import Trainers from "./components/Trainers";
 import {motion} from 'framer-motion';
 import SmoothScroll from "./components/SmoothScroll";
 
+
 function App() {
 
   const {scrollYProgress} = useScroll();

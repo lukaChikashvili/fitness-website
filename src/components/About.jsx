@@ -6,6 +6,11 @@ import { motion } from 'framer-motion';
 import gym from '../assets/gym.png';
 
 const About = () => {
+
+
+
+
+
     const aboutRef = useRef(null);
 
     useEffect(() => {
@@ -68,7 +73,7 @@ const About = () => {
         <div ref={aboutRef} className='min-h-screen px-12 flex items-center justify-between '>
             <div className='flex flex-col gap-8 '>
             <motion.h1 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} className='text-3xl p-12 wavy-text' animate="animate">
-                About Us
+             <span className='text-orange-500 text-sm'>001.</span>  About Us
             </motion.h1>
 
             <p className='text-xl about-text w-4/5  leading-10'>
